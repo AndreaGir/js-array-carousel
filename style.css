@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: max-content;
+}
+
+ h1{
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    padding: 10px;
+}
+.dentro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dentro > button{
+    height: max-content;
+    padding: 10px;
+    margin: 5px;
+}
