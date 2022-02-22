@@ -14,10 +14,13 @@ button{
 }
 
 
-.active{
-    display: block; 
+
+.slide{
+    display: none;
 }
 
-.container > div{
-    display: none;
+.slide.active{
+    display: block; 
+    
+
 }
